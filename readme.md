@@ -13,6 +13,9 @@ This is my personal portfolio website built as part of my **Python Full-Stack De
 - 📬 Contact Form (powered by [FormSubmit](https://formsubmit.co))
 - 📱 Fully Responsive (TailwindCSS)
 - 💡 Scroll Animations using AOS.js
+- Mobile-friendly and responsive
+- Minimalist custom styling with Tailwind + custom CSS
+- Deployed via **Render.com** with `gunicorn`
 
 ---
 
@@ -45,17 +48,35 @@ This is my personal portfolio website built as part of my **Python Full-Stack De
 
 
 ---
+### 🌐 Live Demo
 
-## 💡 Setup Instructions (Local)
+👉 [View Portfolio](https://portfolio-m7e1.onrender.com)
 
-> You can preview the site without a backend. Just open in browser:
+---
+## 🚀 Getting Started Locally
 
-```bash
-# Open the project folder
->>cd my-portfolio
->> python -m venv venv
->> venv\Scripts\activate
->> pip install -r requirements.txt
->> python app.py
+### Prerequisites
 
-# Double-click index.html or open with browser
+- Python 3.8+
+- `pip` for package management
+- `virtualenv` (recommended)
+
+### 1. Clone the repo
+
+    ```bash
+    git clone https://github.com/your-username/My_Portfolio.git
+    cd My_Portfolio
+
+###2. Create & activate virtual environment
+      `*bash
+      python -m venv venv
+      source venv/bin/activate  # On Windows use: venv\Scripts\activate
+      *`
+###3. Install dependencies
+      `*bash
+      pip install -r requirements.txt
+      *`
+###4. Run the Flask app
+      `*bash
+      flask run
+      *`
