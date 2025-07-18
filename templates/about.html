@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}About | Mansi Singh{% endblock %}
+
+{% block content %}
+<section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Photo of Mansi Singh">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <p>I'm a Computer Science Engineering student at Lovely Professional University with a passion for artificial intelligence and software development. My journey in tech began with competitive programming and has evolved into specializing in machine learning and data science.</p>
+                    
+                    <p>With expertise in Python, machine learning frameworks, and web development, I've built several projects that solve real-world problems. My research in NLP has been published in IEEE Xplore, and I continuously seek opportunities to expand my knowledge through certifications and hands-on experience.</p>
+                    
+                    <div class="skills-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Data Science</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Home | Mansi Singh{% endblock %}
+
+{% block content %}
+<section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Mansi Singh</h1>
+            <h2>Computer Science Engineer & AI Enthusiast</h2>
+            <p>I specialize in machine learning, data analysis, and full-stack development. Passionate about solving complex problems and creating innovative solutions that make an impact.</p>
+            <a href="{{ url_for('about') }}" class="cta-button">Explore My Journey</a>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+{% endblock %}
