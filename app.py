@@ -34,9 +34,12 @@ def contact():
 
 @app.route('/blog')
 def blog():
-    blog_path = os.path.join('data', 'blog.json')
+    basedir = os.path.abspath(os.path.dirname(__file__)) 
+    blog_path = os.path.join(basedir, 'data', 'blog.json')  
+    
     with open(blog_path, 'r') as f:
         blog_posts = json.load(f)
+
     return render_template('blog.html', posts=blog_posts)
 
 if __name__ == '__main__':
