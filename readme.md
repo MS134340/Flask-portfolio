@@ -67,16 +67,16 @@ This is my personal portfolio website built as part of my **Python Full-Stack De
     git clone https://github.com/your-username/My_Portfolio.git
     cd My_Portfolio
 
-###2. Create & activate virtual environment
-      `*bash
+### 2. Create & activate virtual environment
+      ```bash
       python -m venv venv
       source venv/bin/activate  # On Windows use: venv\Scripts\activate
-      *`
-###3. Install dependencies
-      `*bash
+      
+### 3. Install dependencies
+      ```bash
       pip install -r requirements.txt
-      *`
-###4. Run the Flask app
-      `*bash
+      
+### 4. Run the Flask app
+      ```bash
       flask run
-      *`
+      
