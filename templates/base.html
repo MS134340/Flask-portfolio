@@ -23,14 +23,15 @@
         <nav>
             <a href="/" class="logo">Mansi Singh</a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/skills">Skills</a>
-                <a href="{/Projects}">Projects</a>
-                <a href="/research">Research</a>
-                <a href="/certification">Certifications</a>
-                <a href="/contact">Contact</a>
-                <a href="/blog">Blog</a>
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="{{ url_for('about') }}">About</a>
+                <a href="{{ url_for('skills') }}">Skills</a>
+                <a href="{{ url_for('projects') }}">Projects</a>
+                <a href="{{ url_for('research') }}">Research</a>
+                <a href="{{ url_for('certification') }}">Certifications</a>
+                <a href="{{ url_for('contact') }}">Contact</a>
+                <a href="{{ url_for('blog') }}">Blog</a>
+
             </div>
         </nav>
     </header>
